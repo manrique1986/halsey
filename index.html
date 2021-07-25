@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <meta name= "description" content="Sitio web de Halsey, aqui podras probar una exelente cerveza">
+    <meta name="description" content="Sitio web de Halsey, Con amigos siempre es mejor">
     <meta name="keywords" content="halsey, Artezanal">
     <title>menu</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+
 </head>
 
-<body>
+<body data-aos="fade-down"
+data-aos-easing="linear"
+data-aos-duration="1500">
     <header>
         <div class="bounce-in-top">
             <img src="img/LogoMakr-7734D9.png" alt="texto">
@@ -21,7 +26,7 @@
         <div>
             <h1>Cerveza Artezanal Halsey</h1>
         </div>
-    </header>
+    </header >
 
     <nav>
         <ul class="menu">
@@ -64,37 +69,33 @@
         </div>
     </main>
     <footer>
-
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <p>
-                            Contacto
-                        </p>
-
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <p>
-                            Redes sociales
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
+        <div class="footer-content">
+            <h3>Halsey</h3>
+            <p>Por que con amigos siempre es mejor</p>
+            <ul class="redes">
+                <li><a href=""><i class=" fa fa-facebook"></i></a></li>
+                <li><a href=""><i class=" fa fa-instagram"></i></a></li>
+                <li><a href=""><i class=" fa fa-youtube"></i></a></li>
+                <li><a href=""><i class=" fa fa-twitter"></i></a></li>
+            </ul>
         </div>
+        <ul>
+            <li class="fa fa-map-marker" id="localizacion"></li>
+            <span> Av San Martin s/n. Ciudad de Florentino Ameghino</span>
+            <p>Telefono: 1130374277</p>
+        </ul>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 Halsey. Diseñado por <span>Manrique</span></p>
+
+        </div>
+
 
     </footer>
 
     <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
 </body>
 

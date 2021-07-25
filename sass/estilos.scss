@@ -1,5 +1,6 @@
 @import "base/colores";
 @import "base/fuentes";
+@import "base/footer";
 
 @mixin halsey {
   display: flex;
@@ -40,12 +41,6 @@ td {
   display: flex;
   justify-content: space-around;
 }
-.footer{
-  background-color: gray;
- width: 100%;
- height: auto;
- @extend .menu__nav
- }
 h1{
   animation-name: desaparecer;
   animation-duration: 3s;
@@ -88,7 +83,7 @@ h1{
   text-decoration: none;
 }
 body{
-  background-image: linear-gradient(180deg, #8e9eab , #eef2f3);
+  background-image: linear-gradient(180deg, #1e130c , #9a8478);
   }
 
   .bounce-in-top {
@@ -216,5 +211,7 @@ body{
         background-color: brown;
 }
 
+
+  
 
 
