@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web de Halsey, aqui podras probar una exelente cerveza">
+    <meta name="keywords" content="halsey, Artezanal">
+    <title>contacto</title>
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+
+
+
+    <header>
+        <div>
+            <h1>Cerveza Artezanal Halsey</h1>
+        </div>
+    </header>
+
+
+    <nav>
+        <ul class="menu">
+            <li><a href="inicio.html" class="menu__nav">inicio</a></li>
+            <li><a href="productos.html" class="menu__nav">productos</a></li>
+            <li><a href="contacto.html" class="menu__nav">contacto</a></li>
+            <li><a href="galeria.html" class="menu__nav">galeria</a></li>
+        </ul>
+    </nav>
+
+    <main>
+       
+        <form id="app-login" action="process.php" method="POST" enctype="text/plain">
+            <fieldset>
+                <div>
+                    <legend>Sos cliente?</legend>
+                    <label for="Si">Si</label>
+                    <input type="checkbox" name="Si">
+
+                    <label for="No">No</label>
+                    <input type="checkbox" name="No">
+                </div>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input name="nombre" type="text" required>
+                </div>
+                <div>
+                    <label for="Apellido">Apellido:</label>
+                    <input name="Apellido" type="text" required>
+                </div>
+                <div>
+                    <label for="E-mail">E-mail:</label>
+                    <input name="E-mail" type="email" required>
+                </div>
+                <div>
+                    <label for="Documento">Documento</label>
+                    <select id="Documento" name="Documento">
+                        <option value="" selected></option>
+                        <option value="LE">LE</option>
+                        <option value="LC">LC</option>
+                        <option value="DNI">DNI</option>
+                        <option value="PASS">PASS</option>
+                    </select>
+                    <label for="N°">N°</label>
+                    <input name="N°" type="text">
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label for="message">Mensaje:</label>
+                    <textarea cols="50" rows="10"></textarea>
+                </div>
+                <label for="Restablecer">Limpiar formulario</label>
+                <input name="Restablecer" type="reset">
+
+                <label for="Enviar">Enviar formulario</label>
+                <input name="enviar" type="submit">
+
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>contacto</p>
+        <p>ubicacion</p>
+        <p>redes sociales</p>
+    </footer>
+
+    <script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
