@@ -211,7 +211,18 @@ body{
         background-color: brown;
 }
 
-
+.container-fluid{
+        background-color: brown;
+}
   
+.contacto{
+        display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+}
 
-
+.color-contacto{
+        color: brown;
+}
