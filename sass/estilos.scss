@@ -221,8 +221,13 @@ body{
      justify-content: center;
      flex-direction: column;
      text-align: center;
+     background-color: black;
 }
 
 .color-contacto{
         color: brown;
 }
+.btn{
+        background-color: $negro;
+}
+

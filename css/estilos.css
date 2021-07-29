@@ -1,5 +1,5 @@
 footer {
-  background-color: #111;
+  background-color: black;
   height: auto;
   width: 100vw;
   font-family: "open sans";
@@ -247,7 +247,11 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center; }
+  text-align: center;
+  background-color: black; }
 
 .color-contacto {
   color: brown; }
+
+.btn {
+  background-color: black; }
