@@ -91,8 +91,8 @@ h1 {
   animation-duration: 3s;
   animation-iteration-count: infinite;
   text-align: center;
-  color: #514f6e;
-  font-family: cursive;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 50px; }
 
 @keyframes desaparecer {
