@@ -86,6 +86,9 @@ td {
   display: flex;
   justify-content: space-around; }
 
+.logo {
+  width: 120px; }
+
 h1 {
   animation-name: desaparecer;
   animation-duration: 3s;
@@ -93,7 +96,7 @@ h1 {
   text-align: center;
   color: #fff;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px; }
+  font-size: 30px; }
 
 @keyframes desaparecer {
   0% {

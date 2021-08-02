@@ -35,7 +35,11 @@ td {
 .productosFlex{
   display: flex;
   justify-content: space-around;
-}
+} 
+
+ .logo{
+         width: 120px;
+ }       
 h1{
   animation-name: desaparecer;
   animation-duration: 3s;
